@@ -1,0 +1,45 @@
+/*---------Body Basis Opstel------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+body {
+  background: #231f20;
+  text-align: center;
+}
+
+/*-------Einde Body Basis Opstel--------*/
+
+/*-------------title Site---------------*/
+h1 {
+  color: #fff;
+  font-family: "Oswald";
+  font-weight: 700;
+  position: relative;
+  margin: 30px auto;
+  text-transform: uppercase;
+  width: 550px;
+}
+
+h1::before {
+  content: "";
+  display: inline-block;
+  margin-left: -30px;
+  width: 17px;
+  height: 19px;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+  margin-right: 10px;
+  background-color: #4a90e2;
+}
+
+h1::after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 19px;
+  background-color: #4a90e2;
+  border-top-right-radius: 23px;
+  border-bottom-right-radius: 23px;
+  margin-left: 10px;
+}
+
+/*---------Einde  title Site---------------*/
